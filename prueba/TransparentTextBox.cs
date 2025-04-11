@@ -8,18 +8,18 @@ using System.Threading.Tasks;
 
 namespace prueba
 {
-    public class ButtonPerso : TextBox
+    public class TransparentTextBox : TextBox
     {
 
         // Token: 0x06000001 RID: 1 RVA: 0x00002050 File Offset: 0x00001050
-        public ButtonPerso()
+        public TransparentTextBox()
         {
             this.InitializeComponent();
             this.BackColor = this.myBackColor;
             base.SetStyle(ControlStyles.UserPaint, false);
             base.SetStyle(ControlStyles.AllPaintingInWmPaint, true);
             base.SetStyle(ControlStyles.DoubleBuffer, true);
-            this.myPictureBox = new ButtonPerso.uPictureBox();
+            this.myPictureBox = new TransparentTextBox.uPictureBox();
             base.Controls.Add(this.myPictureBox);
             this.myPictureBox.Dock = DockStyle.Fill;
         }
@@ -399,7 +399,7 @@ namespace prueba
         }
 
         // Token: 0x04000001 RID: 1
-        private ButtonPerso.uPictureBox myPictureBox;
+        private TransparentTextBox.uPictureBox myPictureBox;
 
         // Token: 0x04000002 RID: 2
         private bool myUpToDate = false;

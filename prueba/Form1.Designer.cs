@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            buttonPerso1 = new ButtonPerso();
+            buttonPerso1 = new TransparentTextBox();
             SuspendLayout();
             // 
             // buttonPerso1
@@ -59,6 +59,6 @@
 
         #endregion
 
-        private ButtonPerso buttonPerso1;
+        private TransparentTextBox buttonPerso1;
     }
 }
