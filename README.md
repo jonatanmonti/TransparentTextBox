@@ -5,4 +5,4 @@
 1. TransparentTextBox.cs
 2. win32.cs
 
-Espero que te sirva 😁😁
+I hope it helps you 😁😁
