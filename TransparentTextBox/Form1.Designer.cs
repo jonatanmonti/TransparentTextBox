@@ -28,19 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            buttonPerso1 = new TransparentTextBox();
             SuspendLayout();
-            // 
-            // buttonPerso1
-            // 
-            buttonPerso1.BackAlpha = 10;
-            buttonPerso1.BackColor = Color.FromArgb(0, 0, 0);
-            buttonPerso1.ForeColor = Color.White;
-            buttonPerso1.Location = new Point(385, 234);
-            buttonPerso1.Margin = new Padding(5);
-            buttonPerso1.Name = "buttonPerso1";
-            buttonPerso1.Size = new Size(428, 38);
-            buttonPerso1.TabIndex = 0;
             // 
             // Form1
             // 
@@ -48,17 +36,13 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.MidnightBlue;
             ClientSize = new Size(1400, 698);
-            Controls.Add(buttonPerso1);
             Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Margin = new Padding(5);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
-
-        private TransparentTextBox buttonPerso1;
     }
 }
